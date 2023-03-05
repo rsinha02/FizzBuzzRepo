@@ -31,4 +31,16 @@ public String fizzBuzzTestWhenUserInputsFour(int i)
 	}
 	return "4";
 }
+
+public String fizzBuzzTestWhenUserInputsFive(int i)
+{
+	if(i==5) {
+	 return "Buzz";
+}
+	return "Buzz";
+}	
+
+
+
+
 }
