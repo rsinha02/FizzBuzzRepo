@@ -15,9 +15,9 @@ public String fizzBuzzTestWhenUserInputsTwo(int i)
 	return "2";
 }
 
-public String fizzBuzzTestWhenUserInputsThree(int i)
+public String fizzBuzzTestWhenUserInputsThreeOrItsMultiple(int i)
 {
-	if(i==3) {
+	if(i%3==0) {
 	 return "Fizz";
 }
 	return "Fizz";

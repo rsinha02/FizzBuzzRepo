@@ -22,7 +22,7 @@ public class FizzBuzzTest {
 	public void fizzCheckWhenUserInputsThree()
 	{
 		FizzBuzz fizzBuzz= new FizzBuzz();
-	    Assert.assertEquals("Fizz",fizzBuzz.fizzBuzzTestWhenUserInputsThree(3));
+	    Assert.assertEquals("Fizz",fizzBuzz.fizzBuzzTestWhenUserInputsThreeOrItsMultiple(3));
 		}	
 	
 
@@ -41,6 +41,16 @@ public class FizzBuzzTest {
 	 Assert.assertEquals("Buzz", fizzBuzz.fizzBuzzTestWhenUserInputsFive(5));
 	 
  }
+ 
+ @Test
+ public void fizzBuzzCheckWhenUserInputsSix()
+ {
+
+	 FizzBuzz fizzBuzz= new FizzBuzz(); 
+	 Assert.assertEquals("Fizz", fizzBuzz.fizzBuzzTestWhenUserInputsThreeOrItsMultiple(6));
+ }
+ 
+ 
  
 } 
 	
