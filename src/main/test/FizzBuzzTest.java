@@ -18,9 +18,15 @@ public class FizzBuzzTest {
     Assert.assertEquals("2",fizzBuzz.fizzBuzzTestWhenUserInputsTwo(2));
 	}	
 	
+	@Test
+	public void fizzCheckWhenUserInputsThree()
+	{
+		FizzBuzz fizzBuzz= new FizzBuzz();
+	    Assert.assertEquals("Fizz",fizzBuzz.fizzBuzzTestWhenUserInputsThree(3));
+		}	
+	}
 	
 	
 	
 	
-	
-}
+
