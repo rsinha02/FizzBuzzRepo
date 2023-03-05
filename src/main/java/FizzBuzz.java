@@ -45,6 +45,13 @@ public String fizzBuzzTestWhenUserInputsOrdinaryNumber(int i)
 	return String.valueOf(i);
 }
 
+public String fizzBuzzTestWhenUserInputsMultiplesOfThreeAndFive(int i)
+{
+	if(i%15==0)
+	{		
+ return "FizzBuzz";
 
-
+}
+	return "FizzBuzz";
+}
 }

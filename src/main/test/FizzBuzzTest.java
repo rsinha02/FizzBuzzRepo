@@ -74,9 +74,15 @@ public class FizzBuzzTest {
  }
  
  
+ @Test
+ public void fizzBuzzCheckWhenUserInputsFifteen()
+ {
+	 FizzBuzz fizzBuzz= new FizzBuzz();
+	 Assert.assertEquals("FizzBuzz",fizzBuzz.fizzBuzzTestWhenUserInputsMultiplesOfThreeAndFive(15));
+ }
+ }
  
- 
-} 
+
 	
 	
 
