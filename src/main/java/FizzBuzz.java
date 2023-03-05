@@ -23,12 +23,12 @@ public String fizzBuzzTestWhenUserInputsThree(int i)
 	return "Fizz";
 }	
 
-	
-	
-	
-	
-	
-	
-	
-	
+public String fizzBuzzTestWhenUserInputsFour(int i)
+{
+	if(i==4)
+	{
+		return "4";
+	}
+	return "4";
+}
 }

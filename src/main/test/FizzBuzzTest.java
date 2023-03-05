@@ -5,7 +5,7 @@ public class FizzBuzzTest {
 
 	
 	@Test
-	public void fizzBuzzCheckWhenUserInputsOrdinaryNumber()
+	public void fizzBuzzCheckWhenUserInputsOne()
 	{
 		FizzBuzz fizzBuzz= new FizzBuzz();
          Assert.assertEquals("1",fizzBuzz.fizzBuzzTestWhenUserInputsOne(1));
@@ -24,9 +24,16 @@ public class FizzBuzzTest {
 		FizzBuzz fizzBuzz= new FizzBuzz();
 	    Assert.assertEquals("Fizz",fizzBuzz.fizzBuzzTestWhenUserInputsThree(3));
 		}	
-	}
 	
-	
+
+ @Test 
+ public void fizzBuzzCheckWhenUserInputsFour() 
+ {
+	 FizzBuzz fizzBuzz= new FizzBuzz(); 
+	 Assert.assertEquals("4", fizzBuzz.fizzBuzzTestWhenUserInputsFour(4));
+	 
+ }
+} 
 	
 	
 
