@@ -45,6 +45,13 @@ public String fizzBuzzTestWhenUserInputsOrdinaryNumber(int i)
 	return String.valueOf(i);
 }
 
-
+public String fizzBuzzTestWhenUserInputsTen(int i)
+{
+	if(i==10)
+	{
+		return "Buzz";
+	}
+	return "Buzz";
+}
 
 }

@@ -1,3 +1,5 @@
+import static org.junit.Assert.assertTrue;
+
 import java.util.Scanner;
 
 import org.junit.Assert;
@@ -62,6 +64,13 @@ public class FizzBuzzTest {
      int n = sc.nextInt();
 	 Assert.assertNotNull(fizzBuzz.fizzBuzzTestWhenUserInputsOrdinaryNumber(n));
 	 
+ }
+ 
+ @Test
+ public void fizzBuzzCheckWhenUserInputsTen()
+ {
+	 FizzBuzz fizzBuzz= new FizzBuzz();
+	 Assert.assertEquals("Buzz",fizzBuzz.fizzBuzzTestWhenUserInputsTen(10));
  }
  
  
