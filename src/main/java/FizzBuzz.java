@@ -32,9 +32,9 @@ public String fizzBuzzTestWhenUserInputsFour(int i)
 	return "4";
 }
 
-public String fizzBuzzTestWhenUserInputsFive(int i)
+public String fizzBuzzTestWhenUserInputsFiveOrItsMultiple(int i)
 {
-	if(i==5) {
+	if(i%5==0) {
 	 return "Buzz";
 }
 	return "Buzz";
@@ -45,13 +45,6 @@ public String fizzBuzzTestWhenUserInputsOrdinaryNumber(int i)
 	return String.valueOf(i);
 }
 
-public String fizzBuzzTestWhenUserInputsTen(int i)
-{
-	if(i==10)
-	{
-		return "Buzz";
-	}
-	return "Buzz";
-}
+
 
 }

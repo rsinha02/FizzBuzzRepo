@@ -42,7 +42,7 @@ public class FizzBuzzTest {
  public void fizzBuzzCheckWhenUserInputsFive()
  {
 	 FizzBuzz fizzBuzz= new FizzBuzz(); 
-	 Assert.assertEquals("Buzz", fizzBuzz.fizzBuzzTestWhenUserInputsFive(5));
+	 Assert.assertEquals("Buzz", fizzBuzz.fizzBuzzTestWhenUserInputsFiveOrItsMultiple(5));
 	 
  }
  
@@ -70,7 +70,7 @@ public class FizzBuzzTest {
  public void fizzBuzzCheckWhenUserInputsTen()
  {
 	 FizzBuzz fizzBuzz= new FizzBuzz();
-	 Assert.assertEquals("Buzz",fizzBuzz.fizzBuzzTestWhenUserInputsTen(10));
+	 Assert.assertEquals("Buzz",fizzBuzz.fizzBuzzTestWhenUserInputsFiveOrItsMultiple(10));
  }
  
  
