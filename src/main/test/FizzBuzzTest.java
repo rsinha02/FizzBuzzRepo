@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -49,6 +51,19 @@ public class FizzBuzzTest {
 	 FizzBuzz fizzBuzz= new FizzBuzz(); 
 	 Assert.assertEquals("Fizz", fizzBuzz.fizzBuzzTestWhenUserInputsThreeOrItsMultiple(6));
  }
+ 
+ @Test
+ public void fizzBuzzCheckWhenUserInputsOrdinaryNumber()
+ {
+
+	 FizzBuzz fizzBuzz= new FizzBuzz();
+	 System.out.println("Enter the number");
+	 Scanner sc=new Scanner(System.in);
+     int n = sc.nextInt();
+	 Assert.assertNotNull(fizzBuzz.fizzBuzzTestWhenUserInputsOrdinaryNumber(n));
+	 
+ }
+ 
  
  
  

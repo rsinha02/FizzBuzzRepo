@@ -40,6 +40,10 @@ public String fizzBuzzTestWhenUserInputsFive(int i)
 	return "Buzz";
 }	
 
+public String fizzBuzzTestWhenUserInputsOrdinaryNumber(int i)
+{
+	return String.valueOf(i);
+}
 
 
 
